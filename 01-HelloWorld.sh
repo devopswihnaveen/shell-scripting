@@ -1,7 +1,7 @@
 #!/bin/bash
 # A simple Hello World script
 start_time=$(date)
-end_time=$(date +%s)    
+end_time=$(date)    
 echo "Start time: $start_time"
 echo "Hello, World!"
 echo "This is my first shell script after long time."
