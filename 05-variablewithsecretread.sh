@@ -1,11 +1,18 @@
 #!/bin/bash
 
-echo "Please Enter your username::"
-read USER_NAME
+# Silent input for sensitive data
 
-echo "User name is $USER_NAME"
+read -sp "Enter username: " USERNAME
+echo
+read -sp "Enter password: " PASSWORD
+echo
+read -sp "Enter API token: " API_TOKEN
+echo
 
-echo "Please enter your password::"
-read -sp PASSWORD
+echo "Credentials captured securely."
 
-echo "Password is $PASSWORD"
+# Demo output (never print real secrets in production)
+echo "Username entered successfully."
+echo "Password length: ${#PASSWORD}"
+echo "API token length: ${#API_TOKEN}"
+echo "Sensitive data handled securely."
