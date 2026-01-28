@@ -15,6 +15,8 @@ echo "Credentials captured securely."
 echo "Username entered successfully."
 echo "Password length: ${#PASSWORD}"
 echo "API token length: ${#API_TOKEN}"
+#Printing the variables for demonstration purposes only
+# In real scenarios, avoid printing sensitive data
 echo "Username: $USERNAME"
 echo "Password: $PASSWORD"
 echo "API token: $API_TOKEN"
