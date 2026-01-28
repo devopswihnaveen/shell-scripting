@@ -1,8 +1,8 @@
 #!/bin/bash
 #this script simulates a team conversation scenario with variable team member names
-TEAM_LEAD="Yash"
-DEVELOPER1="Naveen"
-DEVELOPER2="Vajid"
+TEAM_LEAD="Jagadeesh"
+DEVELOPER1="Sujwal"
+DEVELOPER2="Naresh"
 QA_ENGINEER="Gowtham"
 echo "$TEAM_LEAD: Hi Team, let's discuss our project updates."
 sleep 1
