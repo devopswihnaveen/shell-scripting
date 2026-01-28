@@ -8,4 +8,4 @@ if [ $USERID -ne 0 ]; then
 fi
 
 echo "Installing Nginx"
-dnf install nginx -y
+apt install nginx -y
