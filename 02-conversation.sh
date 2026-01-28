@@ -1,35 +1,49 @@
 #!/bin/bash
 
 echo "📞 HR: Hi Naveen, this is Anjali from XYZ Technologies. Is this a good time to talk?"
-read -p "You: " response1
+sleep 1
+echo "You: Yes, this is a good time. Thank you for calling."
 
 echo
+sleep 1
 echo "HR: We came across your profile. Are you currently open to new opportunities?"
-read -p "You: " response2
+sleep 1
+echo "You: Yes, I am currently open to work and actively exploring DevOps and Cloud roles."
 
 echo
+sleep 1
 echo "HR: Can you briefly tell me about your experience?"
-read -p "You: " experience
+sleep 1
+echo "You: I have 3 years of experience as a Cloud Engineer working with AWS, Terraform, CI/CD pipelines, and Kubernetes."
 
 echo
-echo "HR: Why are you looking for a job change?"
-read -p "You: " reason
+sleep 1
+echo "HR: Why are you looking for a change?"
+sleep 1
+echo "You: I am looking for growth, ownership, and opportunities to work on scalable and production-grade cloud architectures."
 
 echo
-echo "HR: What kind of roles are you looking for?"
-read -p "You: " role
+sleep 1
+echo "HR: What type of roles are you looking for?"
+sleep 1
+echo "You: DevOps Engineer, Cloud Engineer, or Platform Engineer roles."
 
 echo
+sleep 1
 echo "HR: What is your notice period?"
-read -p "You: " notice
+sleep 1
+echo "You: 30 days, and it is negotiable based on project requirements."
 
 echo
+sleep 1
 echo "HR: What are your salary expectations?"
-read -p "You: " salary
+sleep 1
+echo "You: I am looking for a market-aligned package based on role, responsibilities, and growth opportunities."
 
 echo
-echo "HR: Thank you, Naveen. We will get back to you after the next round."
-echo "You: Thank you for the opportunity. Looking forward to hearing from you."
+sleep 1
+echo "HR: Thank you, Naveen. We will get back to you shortly."
+echo "You: Thank you for the opportunity. Looking forward to the next steps."
 
 echo
-echo "✅ Interview conversation completed successfully."
+echo "✅ HR conversation simulation completed."
