@@ -1,8 +1,12 @@
 #!/bin/bash
 # A simple Hello World script
+start_time=$(date)
+end_time=$(date +%s)    
+echo "Start time: $start_time"
 echo "Hello, World!"
 echo "This is my first shell script after long time."
 echo "Have a great day!"
+echo "End time: $end_time"
 # End of script
 # Thank you for running this script.
 # This script was created for demonstration purposes.
