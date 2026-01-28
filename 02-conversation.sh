@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "📞 HR: Hi Naveen, this is Anjali from XYZ Technologies. Is this a good time to talk?"
+echo "HR: Hi Naveen, this is Anjali from XYZ Technologies. Is this a good time to talk?"
 sleep 1
 echo "You: Yes, this is a good time. Thank you for calling."
 
@@ -46,4 +46,4 @@ echo "HR: Thank you, Naveen. We will get back to you shortly."
 echo "You: Thank you for the opportunity. Looking forward to the next steps."
 
 echo
-echo "✅ HR conversation simulation completed."
+echo "HR conversation simulation completed."
