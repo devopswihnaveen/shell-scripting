@@ -6,6 +6,7 @@ echo "Start time: $start_time"
 echo "Hello, World!"
 echo "This is my first shell script after long time."
 echo "Have a great day!"
+sleep 10
 echo "End time: $end_time"
 # End of script
 # Thank you for running this script.
