@@ -8,7 +8,7 @@ if [ $USERID -ne 0 ]; then
 fi
 
 echo "Installing Nginx"
-dnf install nginx -y
+apt install nginx -y
 
 if [ $? -ne 0 ]; then
     echo "Installing Nginx ... FAILURE"
@@ -17,7 +17,7 @@ else
     echo "Installing Nginx ... SUCCESS"
 fi
 
-dnf install mysql -y
+apt install mysql -y
 
 if [ $? -ne 0 ]; then
     echo "Installing MySQL ... FAILURE"
@@ -26,7 +26,7 @@ else
     echo "Installing MySQL ... SUCCESS"
 fi
 
-dnf install nodejs -y
+apt install nodejs -y
 
 if [ $? -ne 0 ]; then
     echo "Installing nodejs ... FAILURE"
