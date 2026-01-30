@@ -44,6 +44,7 @@ do
             --query 'Reservations[].Instances[].PublicIpAddress' \
             --output text
         )
+
         RECORD_NAME="$DOMAIN_NAME" # amaravathi.today
     else
         IP=$(
@@ -52,6 +53,7 @@ do
             --query 'Reservations[].Instances[].PrivateIpAddress' \
             --output text
         )
+        
         RECORD_NAME="$instance.$DOMAIN_NAME" # mongodb.amaravathi.today
     fi
 
