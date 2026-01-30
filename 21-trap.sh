@@ -18,13 +18,12 @@ fi
 
 mkdir -p $LOGS_FOLDER
 
-for package in $@ # sudo sh 14-loops.sh nginx mysql nodejs
+for package in "$@"
 do
-    dnf list installed $package &>>$LOGS_FILE
-    if [ $? -ne 0 ]; then
-        echo "$package not installed, installing now"
-        dnf install $package -y &>>$LOGS_FILE
+    if rpm -q "$package" &>>"$LOGS_FILE"; then
+        echo -e "$package already installed ... SKIPPING"
     else
-        echo -e "$package already installed ... $Y SKIPPING $N"
+        echo "$package not installed, installing now"
+        dnf install "$package" -y &>>"$LOGS_FILE"
     fi
 done
