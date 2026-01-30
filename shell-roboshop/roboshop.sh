@@ -6,7 +6,7 @@ set -e  # exit if any command fails
 # VARIABLES
 ############################
 
-SG_ID="sg-0740995f10ea6bcf0"
+SG_ID="sg-02582082410591641"
 AMI_ID="ami-0220d79f3f480ecf5"
 ZONE_ID="Z0848480352BVL54Y1D1I"
 DOMAIN_NAME="amaravathi.today"
