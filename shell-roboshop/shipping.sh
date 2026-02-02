@@ -65,6 +65,9 @@ VALIDATE $? "Created systemctl service"
 dnf install mysql -y  &>>$LOGS_FILE
 VALIDATE $? "Installing MySQL"
 
+sed -i 's/RoboShop@1/Naveen124/g' /app/db/app-user.sql
+VALIDATE $? "Updating app-user password"
+
 mysql -h $MYSQL_HOST -uroot -pNaveen124 -e 'use cities'
 if [ $? -ne 0 ]; then
 
